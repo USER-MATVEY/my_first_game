@@ -181,6 +181,9 @@ def reset_game():
     hard_flag_2 = True
     final_flag1 = True
     final_flag2 = True
+    reload = False
+    bullet_counter = 0
+    reload_timer = 0
     Enemies.clear()
     for i in range(5):
         Enemies.append(
